@@ -1,0 +1,28 @@
+# Python virtual environments and caches
+.venv/
+venv/
+env/
+surface_net_demo/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+
+# Local editor and operating system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Local credentials and configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.log
